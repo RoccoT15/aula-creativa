@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Creativa - Español para chicos con raíces latinas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+    <div class="brand">
+        <img src="assets/img/logo-aula-creativa.svg" alt="Logo de Aula Creativa" class="logo">
+        <div class="brand-text">
+            <a href="#" id="brand-home-link"><h1>Aula Creativa</h1></a>
+            <p>Español con raíces, para chicos criados en Estados Unidos</p>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="#" id="home-link" class="active-link">Inicio</a>
+        <a href="#" id="courses-link">Cursos</a>
+        <a href="#" id="about-link">Nosotros</a>
+        <a href="#" id="contact-link">Contacto</a>
+    </div>
+</div>
+
+<div id="main-content">
+
+    <section id="home-section">
+        <div class="hero">
+            <div class="content">
+                <h2>Conectá con tus raíces a través del idioma</h2>
+                <p>Aula Creativa es una escuela virtual de español pensada para hijos e hijas de familias argentinas y latinas que crecieron en Estados Unidos. Clases en vivo, profesores nativos y una metodología que entiende lo que es crecer entre dos culturas.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary" id="cta-courses">Ver cursos</a>
+                    <a href="#" class="btn btn-secondary" id="cta-contact">Escribinos</a>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="assets/img/nina-sonriente.jpg" alt="Estudiante de Aula Creativa sonriendo con su computadora">
+            </div>
+        </div>
+
+        <div class="benefits">
+            <h2>Por qué elegir Aula Creativa</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="ri-heart-line"></i>
+                    <h3>Pensado para vos</h3>
+                    <p>Una metodología diseñada específicamente para chicos bilingües o de herencia hispana que entienden el español pero necesitan animarse a hablarlo, leerlo y escribirlo con confianza.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="ri-global-line"></i>
+                    <h3>Profesores nativos</h3>
+                    <p>Docentes de Argentina y Latinoamérica, formados en la enseñanza del español como lengua de herencia, no como un idioma extranjero más.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="ri-music-2-line"></i>
+                    <h3>Cultura viva</h3>
+                    <p>Aprendé con música, historias, tradiciones y conversaciones reales: el idioma como puente con tu familia y tu identidad, no solo como materia escolar.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="ri-vidicon-line"></i>
+                    <h3>100% online, en vivo</h3>
+                    <p>Grupos reducidos y horarios flexibles pensados para la vida en Estados Unidos, desde cualquier ciudad del país.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses-section">
+        <h2>Nuestros Cursos</h2>
+        <p class="section-intro">Grupos reducidos organizados por nivel real de español, no por edad. Encontrá el que mejor se adapta a vos o a tu hijo/a.</p>
+
+        <div class="course-option">
+            <div class="option-header" onclick="toggleCourseInfo('course1')">
+                <i class="ri-seedling-line course-icon"></i>
+                <p><b>Nivel Inicial · Español de Herencia</b> <i class="ri-arrow-down-s-line" id="arrow-course1"></i></p>
+            </div>
+            <div id="course1" class="course-info" style="display: none;">
+                <h3>Para quienes entienden más de lo que hablan</h3>
+                <p>Pensado para chicos que crecieron escuchando español en casa pero que dudan al hablarlo. Trabajamos la confianza oral, el vocabulario cotidiano y la pérdida del miedo a "equivocarse", partiendo de lo que ya saben en lugar de empezar de cero.</p>
+                <p><strong>Qué vas a aprender:</strong></p>
+                <ul>
+                    <li>Conversación cotidiana: familia, comida, rutina, amigos.</li>
+                    <li>Vocabulario y expresiones típicas de Argentina y Latinoamérica.</li>
+                    <li>Primeras herramientas de lectura y escritura en español.</li>
+                    <li>Actividades para hablar con abuelos y familiares sin traducir mentalmente del inglés.</li>
+                </ul>
+                <p><strong>Modalidad:</strong></p>
+                <ul>
+                    <li><strong>Grupos:</strong> hasta 8 estudiantes por clase.</li>
+                    <li><strong>Frecuencia:</strong> 2 clases en vivo por semana, 100% online.</li>
+                    <li><strong>Duración:</strong> clases de 50 minutos.</li>
+                    <li><strong>Ideal para:</strong> niños, preadolescentes y adolescentes que entienden español oral básico.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="course-option">
+            <div class="option-header" onclick="toggleCourseInfo('course2')">
+                <i class="ri-chat-3-line course-icon"></i>
+                <p><b>Nivel Intermedio · Conversación y Cultura</b> <i class="ri-arrow-down-s-line" id="arrow-course2"></i></p>
+            </div>
+            <div id="course2" class="course-info" style="display: none;">
+                <h3>Hablar con más soltura, entender más profundo</h3>
+                <p>Para estudiantes que ya se manejan en español pero quieren ampliar vocabulario, corregir errores comunes y sentirse cómodos en conversaciones más largas, sean familiares, sociales o formales.</p>
+                <p><strong>Qué vas a aprender:</strong></p>
+                <ul>
+                    <li>Conversación fluida sobre temas de actualidad, historia y cultura latina.</li>
+                    <li>Gramática aplicada a la conversación real, sin memorización sin sentido.</li>
+                    <li>Comprensión de música, series y contenido en español.</li>
+                    <li>Diferencias entre variantes del español (Argentina, resto de Latinoamérica).</li>
+                </ul>
+                <p><strong>Modalidad:</strong></p>
+                <ul>
+                    <li><strong>Grupos:</strong> hasta 8 estudiantes por clase.</li>
+                    <li><strong>Frecuencia:</strong> 2 clases en vivo por semana, 100% online.</li>
+                    <li><strong>Duración:</strong> clases de 50 minutos.</li>
+                    <li><strong>Ideal para:</strong> adolescentes y jóvenes con base conversacional previa.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="course-option">
+            <div class="option-header" onclick="toggleCourseInfo('course3')">
+                <i class="ri-book-open-line course-icon"></i>
+                <p><b>Nivel Avanzado · Lectura, Escritura e Identidad</b> <i class="ri-arrow-down-s-line" id="arrow-course3"></i></p>
+            </div>
+            <div id="course3" class="course-info" style="display: none;">
+                <h3>Español para pensar, escribir y contar tu propia historia</h3>
+                <p>Un espacio para profundizar la lectura y escritura en español, explorar literatura e historia latinoamericana y argentina, y reflexionar sobre la propia identidad cultural creciendo entre dos países.</p>
+                <p><strong>Qué vas a aprender:</strong></p>
+                <ul>
+                    <li>Lectura de textos, noticias y literatura en español.</li>
+                    <li>Escritura: desde mensajes y mails hasta relatos personales.</li>
+                    <li>Historia y actualidad de Argentina y Latinoamérica.</li>
+                    <li>Espacio de conversación sobre identidad, familia y pertenencia.</li>
+                </ul>
+                <p><strong>Modalidad:</strong></p>
+                <ul>
+                    <li><strong>Grupos:</strong> hasta 8 estudiantes por clase.</li>
+                    <li><strong>Frecuencia:</strong> 2 clases en vivo por semana, 100% online.</li>
+                    <li><strong>Duración:</strong> clases de 60 minutos.</li>
+                    <li><strong>Ideal para:</strong> adolescentes y jóvenes con buen manejo conversacional que buscan profundizar.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-section">
+        <h2>Sobre Aula Creativa</h2>
+        <div class="about-content">
+            <p>Aula Creativa nació para acompañar a las familias argentinas y latinas en Estados Unidos que quieren que sus hijos mantengan viva la lengua de sus raíces. Sabemos que muchos chicos crecen escuchando español en casa, pero les cuesta hablarlo con confianza, leerlo o escribirlo, simplemente porque nunca tuvieron un espacio pensado para ellos.</p>
+            <p>Por eso nuestras clases no tratan al español como un idioma extranjero, sino como algo que ya les pertenece. Trabajamos desde donde cada estudiante está hoy, con paciencia, cultura, humor y mucha conversación real.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="ri-flag-line"></i>
+                    <h3>Nuestra misión</h3>
+                    <p>Que ningún chico o chica pierda la posibilidad de hablar con sus abuelos, primos o familia en Argentina o Latinoamérica por no animarse con el idioma.</p>
+                </div>
+                <div class="about-card">
+                    <i class="ri-team-line"></i>
+                    <h3>Nuestro equipo</h3>
+                    <p>Profesores nativos, formados en enseñanza de español como lengua de herencia, que entienden de primera mano la experiencia de vivir entre dos culturas.</p>
+                </div>
+                <div class="about-card">
+                    <i class="ri-map-pin-line"></i>
+                    <h3>Dónde estamos</h3>
+                    <p>Somos una escuela 100% virtual: damos clases en vivo a familias en cualquier ciudad de Estados Unidos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <h2>Contacto</h2>
+        <p class="section-intro">¿Tenés dudas sobre qué nivel elegir o querés coordinar una clase de prueba? Escribinos.</p>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <i class="ri-mail-line"></i>
+                <h3>Email</h3>
+                <p><a href="mailto:contacto@aulacreativaedu.com">contacto@aulacreativaedu.com</a></p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <h3>Teléfono / WhatsApp</h3>
+                <p><a href="tel:+17542750043">+1 (754) 275-0043</a></p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-global-line"></i>
+                <h3>Modalidad</h3>
+                <p>Clases online en vivo para familias en todo Estados Unidos.</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<div class="footer">
+    <p>&copy; 2026 Aula Creativa. Todos los derechos reservados.</p>
+</div>
+
+<script>
+    function showSection(sectionId, linkId) {
+        document.getElementById('home-section').style.display = 'none';
+        document.getElementById('courses-section').style.display = 'none';
+        document.getElementById('about-section').style.display = 'none';
+        document.getElementById('contact-section').style.display = 'none';
+        document.getElementById(sectionId).style.display = 'block';
+
+        document.querySelectorAll('.nav a').forEach(function(link) {
+            link.classList.remove('active-link');
+        });
+        if (linkId) {
+            document.getElementById(linkId).classList.add('active-link');
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function toggleCourseInfo(courseId) {
+        var info = document.getElementById(courseId);
+        var arrow = document.getElementById('arrow-' + courseId);
+
+        if (info.style.display === 'none') {
+            info.style.display = 'block';
+            arrow.classList.remove('ri-arrow-down-s-line');
+            arrow.classList.add('ri-arrow-up-s-line');
+        } else {
+            info.style.display = 'none';
+            arrow.classList.remove('ri-arrow-up-s-line');
+            arrow.classList.add('ri-arrow-down-s-line');
+        }
+    }
+
+    document.getElementById('home-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        showSection('home-section', 'home-link');
+    });
+
+    document.getElementById('brand-home-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        showSection('home-section', 'home-link');
+    });
+
+    document.getElementById('courses-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        showSection('courses-section', 'courses-link');
+    });
+
+    document.getElementById('about-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        showSection('about-section', 'about-link');
+    });
+
+    document.getElementById('contact-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        showSection('contact-section', 'contact-link');
+    });
+
+    document.getElementById('cta-courses').addEventListener('click', function(event) {
+        event.preventDefault();
+        showSection('courses-section', 'courses-link');
+    });
+
+    document.getElementById('cta-contact').addEventListener('click', function(event) {
+        event.preventDefault();
+        showSection('contact-section', 'contact-link');
+    });
+
+    showSection('home-section', 'home-link');
+</script>
+
+</body>
+</html>
